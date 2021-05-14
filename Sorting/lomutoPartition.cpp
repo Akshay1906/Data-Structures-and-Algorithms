@@ -5,7 +5,7 @@ void lomutoPartition(int arr[], int l, int h)
     int pivot = arr[h];
     int j = l-1;
 
-    for(int i = 0; i < h-l;i++)
+    for(int i = 0; i < h-1; i++)
     {
         if(arr[i] < pivot)
         {
